@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
-
-import { AppComponent } from './app.component'
-
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
